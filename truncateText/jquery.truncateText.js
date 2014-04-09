@@ -2,7 +2,7 @@
 	$.fn.truncateText = function(options) {
 		var defaults = {
 			length: 10,
-			ellipsisText: "...", // can be string ot html element, change contentType accordingly
+			ellipsisText: "...", // can be string or html element, change contentType accordingly
 			contentType: 'text' // text or html
 		}, options = $.extend(defaults, options);
 
